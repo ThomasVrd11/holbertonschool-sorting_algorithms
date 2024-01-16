@@ -7,11 +7,15 @@
  * @array: The array of integers to be sorted.
  * @size: The size of the array.
  *
- * Implements the selection sort algorithm, a simple comparison sorting technique.
+ * Implements the selection sort algorithm, a simple comparison
+ *  sorting technique.
  * The algorithm divides the input array into a sorted and an unsorted segment.
- * It repeatedly selects the smallest (or largest) element from the unsorted segment
- * and moves it to the end of the sorted segment. The process involves two nested loops:
- * The outer loop traverses from the start of the array, and the inner loop finds
+ * It repeatedly selects the smallest (or largest) element
+ *  from the unsorted segment
+ * and moves it to the end of the sorted segment.
+ *  The process involves two nestedloops
+ * The outer loop traverses from the start of the array, and the
+ *  inner loop finds
  * the minimum element in the unsorted part of the array.
  *
  * Return: void

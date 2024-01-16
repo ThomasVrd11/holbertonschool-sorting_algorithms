@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * first - swap with the first node of the list
+ * first_to_swap - swap with the first node of the list
  * @list: the list of nodes
  * @temp: pointer on the list
  *
@@ -16,12 +16,11 @@ void first_to_swap(listint_t **list, listint_t *temp)
 	temp->next = temp->prev;
 	temp->prev = NULL;
 	*list = temp;
-	
 	print_list(*list);
 }
 
 /**
- * mid - swap nodes in the middle of the list
+ * middle_swap - swap nodes in the middle of the list
  * @list: the list of nodes
  * @temp: pointer on the list
  * @temp3: pointer on the list
@@ -42,7 +41,7 @@ void middle_swap(listint_t **list, listint_t *temp, listint_t *temp3)
 }
 
 /**
- * end - swap with the last node of the list
+ * end_to_swapzz - swap with the last node of the list
  * @list: the list of nodes
  * @temp: pointer on the list
  * @temp3: pointer on the list
@@ -62,7 +61,7 @@ void end_to_swapzz(listint_t **list, listint_t *temp, listint_t *temp3)
 }
 
 /**
- * two_nodes - swaps only two nodes
+ * two_nodes_only - swaps only two nodes
  * @list: the list of nodes
  * @temp: pointer on the list
  *
